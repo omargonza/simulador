@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Interactivo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <img src="img/imgMoneda.png" alt="imagMoneda" class="iconoConversor"> 
+    <h1>Casa de Cambio</h1> 
+    <form class="formulario">
+    <p>Selecciona un tipo de Dolar para realizar la operacion</p>
+    <input type="radio"  name="cambio" id="uno"> Dolar Oficial
+    <input type="radio"  name="cambio" id="dos"> Dolar Blue
+    <input type="radio"  name="cambio" id="tres">Dolar Turista
+    <div class="ingreseMonto"> 
+    <p>Ingrese monto</p>
+    <input type="number" id="valor" min="1" max="100000000">
+    <br>
+    <input type="button" id="cotizador" value="cotizar" onclick="convertir(valor)">
+    </div>
+</form>
+    <script src="./codigo.js"> </script>
+</body>
+
+</html>
