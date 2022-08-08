@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,60 +8,66 @@ body{
     height: 100vh;
     margin: 0;
     padding: 20px;
-    
-}
-img{
-   width: 200px;
+
 }
 
-h1{
+img {
+    width: 200px;
+}
+
+h1 {
     font-size: 35px;
     font-family: monospace;
     color: rgb(47, 211, 211);
 }
 
-.formulario{
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
     margin: 20px;
     font-size: 20px;
     font-family: monospace;
-
 }
 
-#uno{
+#uno {
+    width: 80px;
+    height: 15px;
+    
+}
+
+#dos {
     width: 80px;
     height: 15px;
 }
 
-#dos{
+#tres {
     width: 80px;
     height: 15px;
 }
 
-#tres{
-    width: 80px;
-    height: 15px;
-}
-
-.ingreseMonto{
+.ingreseMonto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#valor{
+#valor {
     font-size: 20px;
     border: 0;
     border-radius: 15px;
     background-color: rgb(47, 211, 211);
     text-align: right;
     cursor: pointer;
-    padding: 5px 12px ;
+    padding: 5px 12px;
 }
 
-#cotizador{
+#cotizador {
     font-size: 20px;
     border: 0;
     border-radius: 15px;
-    background-color:  rgb(47, 211, 211);
+    background-color: rgb(47, 211, 211);
     text-align: right;
 }
