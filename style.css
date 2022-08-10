@@ -11,7 +11,9 @@ body {
 
 }
 
-img {
+
+.iconoConversor{
+    filter: contrast(110%),brightness(100%), saturate(180%);
     width: 200px;
 }
 
