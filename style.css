@@ -10,8 +10,12 @@
 
 }
 
-.contenedorConver{
-    filter: brightness(100%);
+.logo{
+    
+    filter: contrast(110%) brightness(100%) saturate(180%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+
 }
 h1 {
     font-size: 35px;

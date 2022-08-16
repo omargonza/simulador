@@ -42,6 +42,7 @@ function convertir(valor) {
      }
 
 }
+/*
 //Elemmentos seleccionados por ID
 let elementoPorId = document.getElementById('titulo');
 elementoPorId.innerHTML ='Conversor de Monedas';
@@ -57,3 +58,4 @@ console.log(elementosPorEtiquetas.length);
 elementosPorEtiquetas[0].innerHTML = 'Horario de atención de 08:00 a 12:00 hs';
 
 
+*/
