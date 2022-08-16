@@ -1,14 +1,6 @@
 .bodyConver{
-    display: flex;
-    flex-direction: column;
-    width: 100vh;
-    background-color: #eb8619;
-    color: black;
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-
-}
+    background-color: rgb(234, 237, 239);
+} 
 
 .logo{
     
@@ -20,9 +12,14 @@
 h1 {
     font-size: 35px;
     font-family: monospace;
-    color: rgb(47, 211, 211);
-}
+    color:rgb(76, 80, 82) ;
 
+}
+h3{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+
+}
 .formulario {
     display: flex;
     flex-direction: column;
@@ -43,11 +40,13 @@ h1 {
 #dos {
     width: 80px;
     height: 15px;
+    
 }
 
 #tres {
     width: 80px;
     height: 15px;
+    
 }
 
 .ingreseMonto {
@@ -60,7 +59,7 @@ h1 {
     font-size: 20px;
     border: 0;
     border-radius: 15px;
-    background-color: rgb(47, 211, 211);
+    background-color:  rgb(180, 182, 183);
     text-align: right;
     cursor: pointer;
     padding: 5px 12px;
@@ -70,7 +69,7 @@ h1 {
     font-size: 20px;
     border: 0;
     border-radius: 15px;
-    background-color: rgb(47, 211, 211);
+    background-color: rgb(180, 182, 183);
     text-align: right;
 }
 
@@ -78,9 +77,20 @@ h1 {
 
 
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 850px){
+    
 
+    
+    .logo{
+    
+        filter: contrast(110%) brightness(100%) saturate(180%);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        
+        
 
+    
+    }
     
 .formulario {
     display: flex;
