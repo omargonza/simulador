@@ -17,27 +17,38 @@
             <img src="img/imgMoneda.png" alt="imagMoneda" width="120pxs" class="logo col-lg-5 ">
         </div>
     </header>
-   
+
     <div class="formulario">
         <form>
             <h1 id="titulo">CASA DE CAMBIO</h1>
             <h4>Selecciona un tipo de Dolar para realizar la operacion</h4>
             <div class="monedas">
-                <input type="radio" name="cambio" id="uno">
-                <h3> Dolar Oficial </h3>
-                <input type="radio" name="cambio" id="dos">
-                <h3>Dolar Blue</h3>
-                <input type="radio" name="cambio" id="tres">
-                <h3>Dolar Turista</h3>
-            </div>
-            <div id="cerrado" class="ingreseMonto">
-                <p>INGRESE MONTO</p>
-                <input type="number" id="valor" min="1" max="100000000">
-                <br>
-                <input type="button" id="cotizador" value="COTIZAR" onclick="convertir(valor)">
-            </div>
+                <div class="divUno">
+                    <input type="radio" name="cambio" id="uno">
+                    <h3> Dolar Oficial </h3>
+                </div>
+                <div class="divDos">
+                    <input type="radio" name="cambio" id="dos">
+                    <h3>Dolar Blue</h3>
+                </div>
+                <div class="divTres">
+                    <input type="radio" name="cambio" id="tres">
+                    <h3>Dolar Turista</h3>
+                </div>
+                <div id="cerrado" class="ingreseMonto">
+                    <p>INGRESE MONTO</p>
+                    <input type="number" id="valor" min="1" max="100000000">
+                    <br>
+                    <input type="button" id="cotizador" value="COTIZAR" onclick="convertir(valor)">
+                </div>
         </form>
     </div>
+    
+        <footer class="footer_inicio container-fluid text-center">
+            Copyright 2022 - Todos los derechos reservados MG Desarrollo.
+           
+        </footer>
+    
     <script src="./conversor.js"> </script>
 </body>
 
