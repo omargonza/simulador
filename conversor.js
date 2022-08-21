@@ -59,3 +59,11 @@ elementosPorEtiquetas[0].innerHTML = 'Horario de atención de 08:00 a 12:00 hs';
 
 
 */
+let url = `https://v6.exchangerate-api.com/v6/88ee1cda9e78d8a534d8df9e/latest/USD`
+
+
+fetch (url) //utilizamos el metodo fetch, el cual nos permite hacer la petision.
+
+.then (Response => Response.json()) // Nos va a dar una promesa la cual la pasamos a json.
+.then (data => console.log(data))
+.catch( error => console.log(error))
